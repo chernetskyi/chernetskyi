@@ -1,0 +1,38 @@
+[user]
+    name = Volodymyr Chernetskyi
+    email = v.v.chernetskyi@gmail.com
+    signingkey = D67B325806A559D6
+[core]
+    editor = nvim
+[commit]
+    gpgsign = true
+[alias]
+    a   = add
+    b   = branch
+    c   = commit --allow-empty
+    d   = diff
+    f   = fetch
+    i   = init
+    l   = log --decorate --graph --format='%Cred%h %Cgreen%cn %Cblue%cr %Creset%s'
+    m   = merge
+    r   = rebase
+    s   = status --short
+    t   = tag
+    ac  = "!git add \"$@\" && git commit #"
+    bl  = blame
+    cf  = config
+    ch  = checkout
+    cl  = clone
+    cp  = cherry-pick
+    pl  = pull
+    ps  = push
+    rb  = rebase
+    rv  = revert
+    sb  = clone --single-branch --branch
+    sl  = shortlog
+    st  = stash
+    sw  = switch
+    acp = "!git add \"$@\" && git commit && git push #"
+    fix = "!git rebase -i HEAD~\"$1\" #"
+    rmt = remote
+    unc = reset --soft HEAD^
