@@ -61,12 +61,12 @@ set smartcase
 " Movement {{{
 set backspace=indent,eol,start
 set nostartofline
-nnoremap j gj
-nnoremap k gk
-nnoremap B ^
-nnoremap E $
-nnoremap $ <nop>
-nnoremap ^ <nop>
+noremap j gj
+noremap k gk
+noremap B ^
+noremap E $
+noremap $ <nop>
+noremap ^ <nop>
 " Cutlass {{{
 nnoremap x d
 xnoremap x d
