@@ -67,12 +67,16 @@ noremap B ^
 noremap E $
 noremap $ <nop>
 noremap ^ <nop>
-" Cutlass {{{
+
+for key in ['<Up>', '<Down>', '<Left>', '<Right>']
+  exec 'noremap' key '<Nop>'
+  exec 'inoremap' key '<Nop>'
+endfor
+
 nnoremap x d
 xnoremap x d
 nnoremap xx dd
 nnoremap X D
-" }}}
 " }}}
 
 " Misc {{{
