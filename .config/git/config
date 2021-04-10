@@ -26,6 +26,7 @@
     pl  = pull
     ps  = push
     rb  = rebase
+    rm  = rm -r
     rv  = revert
     sb  = clone --single-branch --branch
     sl  = shortlog
