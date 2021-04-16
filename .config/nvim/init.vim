@@ -3,7 +3,6 @@ call plug#begin()
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
-Plug 'svermeulen/vim-cutlass'
 Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
@@ -61,18 +60,12 @@ set smartcase
 " Movement {{{
 set backspace=indent,eol,start
 set nostartofline
-nnoremap j gj
-nnoremap k gk
-nnoremap B ^
-nnoremap E $
-nnoremap $ <nop>
-nnoremap ^ <nop>
-" Cutlass {{{
-nnoremap x d
-xnoremap x d
-nnoremap xx dd
-nnoremap X D
-" }}}
+noremap j gj
+noremap k gk
+noremap B ^
+noremap E $
+noremap $ <nop>
+noremap ^ <nop>
 " }}}
 
 " Misc {{{
