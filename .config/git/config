@@ -1,7 +1,7 @@
 [user]
     name = Volodymyr Chernetskyi
     email = v.v.chernetskyi@gmail.com
-    signingkey = D67B325806A559D6
+    signingkey = B3C1E9705559E743
 [core]
     editor = nvim
 [commit]
@@ -23,6 +23,7 @@
     ch  = checkout
     cl  = clone
     cp  = cherry-pick
+    dl  = clone --depth 1 --single-branch --branch
     pl  = pull
     ps  = push
     rb  = rebase
@@ -32,6 +33,6 @@
     sl  = shortlog
     st  = stash
     sw  = switch
-    fix = "!git rebase -i HEAD~\"$1\" #"
     rmt = remote
     unc = reset --soft HEAD^
+
