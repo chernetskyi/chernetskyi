@@ -3,7 +3,6 @@ call plug#begin()
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
-Plug 'svermeulen/vim-cutlass'
 Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
@@ -67,16 +66,6 @@ noremap B ^
 noremap E $
 noremap $ <nop>
 noremap ^ <nop>
-
-for key in ['<Up>', '<Down>', '<Left>', '<Right>']
-  exec 'noremap' key '<Nop>'
-  exec 'inoremap' key '<Nop>'
-endfor
-
-nnoremap x d
-xnoremap x d
-nnoremap xx dd
-nnoremap X D
 " }}}
 
 " Misc {{{
