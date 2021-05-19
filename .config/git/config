@@ -6,6 +6,8 @@
     editor = nvim
 [commit]
     gpgsign = true
+[init]
+    defaultBranch = main
 [alias]
     a   = add
     b   = branch
