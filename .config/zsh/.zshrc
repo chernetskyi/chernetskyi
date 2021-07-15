@@ -64,9 +64,16 @@ alias g="git"
 alias h="helm"
 alias k="kubectl"
 alias tf="terraform"
+alias tg="terragrunt"
 alias v="nvim"
 # Overwrite commands
-exist bat && alias cat="bat -pp --theme Nord"
-exist exa && alias ls="exa --group-directories-first --icons"
+exist ag        && alias ack="ag"
+exist bat       && alias cat="bat -pp --theme Nord"
+exist curlie    && alias curl="curlie"
+exist dog       && alias dig="dog"
+exist exa       && alias ls="exa --group-directories-first --icons"
+exist fd        && alias find="fd"
+exist sd        && alias sed="sd"
+exist rg        && alias grep="rg"
 # Dotfiles management
 alias dot='git --git-dir="${XDG_DATA_HOME:-$HOME/.local/share}"/dotfiles/ --work-tree=$HOME'
