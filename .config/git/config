@@ -26,7 +26,7 @@
     cl  = clone
     cp  = cherry-pick
     dl  = clone --depth 1 --single-branch --branch
-    pl  = pull
+    pl  = pull --ff-only
     ps  = push
     rb  = rebase
     rl  = reflog
